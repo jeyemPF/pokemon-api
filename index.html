@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon</title>
+</head>
+<body>
+
+    <input type="text" id="pokemonName" placeholder="Enter Pokemon name">
+    <button onclick="fetchData()">Search by name</button><br>
+    
+    <div id="pokemonCard" style="display: none">
+        <img src="" alt="Pokemon Sprite" id="pokemonSprite">
+        <div id="pokemonInfo">
+            <h2 id="pokemonNameDisplay"></h2>
+            <p id="pokemonAbilities"></p>
+            <p id="pokemonTypes"></p>
+            <p id="pokemonExperience"></p>
+            <p id="pokemonHeight"></p>
+            <p id="pokemonWeight"></p>
+            <p id="pokemonStats"></p>
+    
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
